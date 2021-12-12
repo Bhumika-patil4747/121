@@ -1,0 +1,303 @@
+<html>
+<head>
+  <title> Google Lens VS Mobilenet Model</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Bottle.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Bottle </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Bottle </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="BEd.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Bed </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Bed </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Glass.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Glass </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Glass </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="hanger.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Hanger </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Hanger </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Phone.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Phone </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Phone </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Pillow.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Pillow </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Pillow </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Ring.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Ring </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Ring </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="SHirt.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br> 
+                    <span> Crop-Top </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Crop-Top </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Spoon.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Spoon </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Spoon </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <ol>
+            <div class="test_image_and_result col-xs-12 " id="div">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - </b>                   <img src="Switchboard.jpg" class="img-responsive">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - 
+                    <br>
+                    <span> Switchboard </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model </b> - 
+                    <span> Switchboard </span>
+                </h5>           
+                
+                <div class="mini_result col-sm-9 col-xs-12">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4> In my test both are accurate! </h4>
+                </div>
+
+            </div>
+        </ol>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="btn btn-warning final_statement">
+            <br>
+            <p>
+                I have tested 10 images.
+                Google Lens have predicted al 10 of them so did Mobilenet Model.
+                So according to my case study both equally accurate!
+            </p>
+            <br>
+        </div>
+        <div class="copy_right_footer">Developed by - Bhumika</div>
+</body>
+</html>

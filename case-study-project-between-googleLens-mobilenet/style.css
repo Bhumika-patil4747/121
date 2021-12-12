@@ -1,0 +1,28 @@
+#div{
+    background-color: #585858;
+    box-shadow: 5px 5px 5px 5px #979797;
+    border-radius: 0%;
+    color: white;
+}
+
+body{
+    background-color: #c9c9c9;
+    text-align: center;
+}
+
+.copy_right_footer{
+    background-color: #808080;
+    text-shadow: #585858 5px 5px 5px 5px;
+    color: #ffffff;
+    position: fixed;
+    float: bottom;
+    height: 20px;
+    
+}
+
+.final_statement{
+    background: #8c84ff;
+    color: purple;
+    font-size: 15px;
+    box-shadow: #2200ff;
+}
